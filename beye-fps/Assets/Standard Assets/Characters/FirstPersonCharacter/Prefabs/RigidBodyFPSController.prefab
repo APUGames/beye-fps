@@ -414,6 +414,7 @@ MonoBehaviour:
   range: 100
   damage: 30
   muzzleFlash: {fileID: 7322922799271469008}
+  hitEffect: {fileID: 0}
 --- !u!1001 &1855462285762568426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -559,6 +560,14 @@ PrefabInstance:
     - target: {fileID: 19865582, guid: 6a482798ff0c51f48bc0c13544dd64aa, type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19865582, guid: 6a482798ff0c51f48bc0c13544dd64aa, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19865582, guid: 6a482798ff0c51f48bc0c13544dd64aa, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19892046, guid: 6a482798ff0c51f48bc0c13544dd64aa, type: 3}
       propertyPath: playOnAwake
