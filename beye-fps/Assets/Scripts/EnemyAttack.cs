@@ -19,8 +19,10 @@ public class EnemyAttack : MonoBehaviour
         {
             return;
         }
-        print("bang");
+        //print("bang");
         target.TakeDamage(damage);
+
+        target.GetComponent<DisplayDamage>().ShowDamageImpact();
     }
     
 }

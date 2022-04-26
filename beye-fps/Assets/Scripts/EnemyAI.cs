@@ -18,15 +18,24 @@ public class EnemyAI : MonoBehaviour
 
     bool isProvoked = false;
 
+    EnemyHealth health;
+
     // Start is called before the first frame update
     void Start()
     {
         nMA = GetComponent<NavMeshAgent>();
+
+        health = GetComponent<EnemyHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(health.IsDead())
+        {
+            enabled = false;
+            nMA.enabled = false;
+        }
         // measure distance between enemy and player
         distanceToTarget = Vector3.Distance(target.position, transform.position);
 
