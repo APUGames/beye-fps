@@ -5411,12 +5411,12 @@ MonoBehaviour:
   fPCamera: {fileID: 1677648908}
   range: 100
   damage: 3
-  muzzleFlash: {fileID: 0}
+  muzzleFlash: {fileID: 5434686466145764230, guid: 84ba1a955cae01c4d8ac265520d0494d, type: 3}
   hitEffect: {fileID: 7251176177352523096, guid: a1926b94d1a8f854bacabac36e3a3702, type: 3}
-  ammoSlot: {fileID: 0}
+  ammoSlot: {fileID: 817892977}
   ammoType: 0
   timeBetweenShots: 0.5
-  ammoText: {fileID: 0}
+  ammoText: {fileID: 896494583}
 --- !u!1001 &719975581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7516,6 +7516,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &817892977 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 858619454, guid: 81c51842265a46e41adca7d6d9c0abfb, type: 3}
+  m_PrefabInstance: {fileID: 6495455341678359027}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6ffee102e6f9946ac8a20ae4219e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821022829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7699,6 +7710,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787407247547226210, guid: 4a36f3a1e6f34494f8059f8dd3df1777, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669276728082, guid: 4a36f3a1e6f34494f8059f8dd3df1777, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8370802328558119537, guid: 4a36f3a1e6f34494f8059f8dd3df1777, type: 3}
@@ -19556,10 +19571,18 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 896494583}
+    - target: {fileID: 40060876, guid: 81c51842265a46e41adca7d6d9c0abfb, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 5434686466145764230, guid: 84ba1a955cae01c4d8ac265520d0494d, type: 3}
     - target: {fileID: 768237809, guid: 81c51842265a46e41adca7d6d9c0abfb, type: 3}
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 896494583}
+    - target: {fileID: 768237809, guid: 81c51842265a46e41adca7d6d9c0abfb, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 5434686466145764230, guid: 84ba1a955cae01c4d8ac265520d0494d, type: 3}
     - target: {fileID: 858619453, guid: 81c51842265a46e41adca7d6d9c0abfb, type: 3}
       propertyPath: gameOverUI
       value: 
