@@ -23,7 +23,7 @@ public class Weapon : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI ammoText;
 
-    AudioSource audio;
+    //AudioSource audio;
 
     bool canShoot = true;
 
